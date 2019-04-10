@@ -15,7 +15,8 @@ src: url("assets/Favorit_Medium.otf");
     padding: 0;
     background-color: #9D9BC3;
     color: #1A1A1A;
-    font-size: 26px;
+    font-size: 7vw;
+    line-height: 1.26;
   	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
   }
@@ -35,14 +36,12 @@ p {
 
 .homecontent {
   padding-left: 10px;
-
-    margin-top: 1.7em;
+  margin-top: 1.7em;
 }
 
 .homecontent:nth-child(2) {
   margin-top: 1em;
 }
-
 
 ::selection {
   background: #CBCCCB;
