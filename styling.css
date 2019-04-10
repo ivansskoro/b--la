@@ -1,0 +1,52 @@
+@font-face {
+font-family: "Favorit Medium";
+src: url("assets/Favorit_Medium.otf");
+}
+
+/* gray #CBCCCB */
+/* black #1A1A1A */
+/* purple #9D9BC3 */
+
+@media screen and (min-width : 0px){
+
+  body {
+    margin: 0;
+    font-family: 'Favorit Medium', Arial, sans-serif;
+    padding: 0;
+    background-color: #9D9BC3;
+    color: #1A1A1A;
+    font-size: 26px;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+  }
+
+header {
+  background-color: #CBCCCB;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.homecontent {
+  padding-left: 10px;
+
+    margin-top: 1.7em;
+}
+
+.homecontent:nth-child(2) {
+  margin-top: 1em;
+}
+
+
+::selection {
+  background: #CBCCCB;
+	color: #9D9BC3;
+}
+
+}
