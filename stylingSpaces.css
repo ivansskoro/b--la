@@ -1,0 +1,46 @@
+/* gray #CBCCCB */
+/* black #1A1A1A */
+/* purple #9D9BC3 */
+
+@media screen and (min-width : 0px){
+
+  body {
+    background-color: #CBCCCB;
+  }
+
+  .title {
+    padding-left: 10px;
+    margin-top: 2em;
+    margin-bottom: 0.8em;
+  }
+
+  .partnerSpace {
+    font-size: 5.3vw;
+    border-top: solid 2px black;
+  }
+
+  .partnerSpaces{
+    border-bottom: solid 2px black;
+  }
+
+  .title p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .partnerSpace p {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+  }
+  .spacesLA p {
+    font-size: 5.3vw;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (min-width : 800px){
+
+}
