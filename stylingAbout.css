@@ -1,0 +1,31 @@
+/* gray #CBCCCB */
+/* black #1A1A1A */
+/* purple #9D9BC3 */
+
+@media screen and (min-width : 0px){
+
+  body {
+    background-color: #CBCCCB;
+    padding-bottom: 5vh;
+  }
+
+  .title p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .aboutText {
+    margin-top: 2em;
+  }
+
+  .aboutText p {
+    font-size: 5.3vw;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}
+
+@media screen and (min-width : 800px){
+
+}
