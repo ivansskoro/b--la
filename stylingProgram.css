@@ -1,0 +1,59 @@
+/* gray #CBCCCB */
+/* black #1A1A1A */
+/* purple #9D9BC3 */
+
+@media screen and (min-width : 0px){
+
+  body {
+    background-color: #CBCCCB;
+    padding-bottom: 0;
+  }
+
+  .programContainer{
+    padding-top: 0.8em;
+  }
+
+  .program {
+    padding: 10px;
+    background-color: #CBCCCB;
+    padding-bottom: 1.2em;
+  }
+
+  .Purple {
+    background-color: #9D9BC3;
+  }
+
+  .eventDetails {
+    display: flex;
+  }
+
+  .eventTime {
+    width: 25%;
+  }
+
+  .eventDescription {
+    width: 75%;
+  }
+
+
+  .eventDay{
+    margin-bottom: 0.2em;
+  }
+
+   .eventDetails p {
+     font-size: 5.3vw;
+     margin-bottom: 0.1em;
+   }
+
+   .notice {
+     margin-top: 5vh;
+     margin-bottom: 5vh;
+     font-size: 5.3vw;
+     padding: 10px;
+   }
+
+}
+
+@media screen and (min-width : 800px){
+
+}

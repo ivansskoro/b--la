@@ -48,12 +48,6 @@ src: url("assets/Favorit-Medium-hyphen.otf");
     }
   }
 
-  footer a {
-    text-decoration: none;
-    color: black;
-  }
-
-
 
   p {
     margin-top: 0.5em;
@@ -86,6 +80,12 @@ src: url("assets/Favorit-Medium-hyphen.otf");
   }
 
   .drugiRed{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 10px);
+  }
+
+  .treciRed{
     display: flex;
     justify-content: space-between;
     width: calc(100% - 10px);

@@ -23,7 +23,10 @@
     padding-left: 10px;
     padding-right: 10px;
   }
-
+  .aboutText a {
+    text-decoration: none;
+    color: black;
+  }
 }
 
 @media screen and (min-width : 800px){
