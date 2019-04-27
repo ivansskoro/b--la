@@ -27,7 +27,6 @@ src: url("assets/Favorit-Medium-hyphen.otf");
   	-moz-osx-font-smoothing: grayscale;
   }
 
-
   header {
     background-color: #CBCCCB;
     align-items: center;
@@ -45,9 +44,7 @@ src: url("assets/Favorit-Medium-hyphen.otf");
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    }
   }
-
 
   p {
     margin-top: 0.5em;
@@ -112,16 +109,13 @@ src: url("assets/Favorit-Medium-hyphen.otf");
 
 }
 
-@media screen and (min-width : 800px){
+@media screen and (min-width : 1200px){
 
   body {
-    font-size: 4.5vw;
-    line-height: 1.1;
+    font-size: 4vw;
   }
 
   header {
-    background-color: #CBCCCB;
-    height: 10vw;
   }
 
   p {
@@ -133,13 +127,7 @@ src: url("assets/Favorit-Medium-hyphen.otf");
     letter-spacing: -5px;
   }
 
-  .homecontent {
-    padding-left: 10px;
-    margin-top: 2em;
+  .homeBig{
+    font-size: 8.5vw;
   }
-
-  .homecontent:nth-child(2) {
-    margin-top: 1.2em;
-  }
-
 }
