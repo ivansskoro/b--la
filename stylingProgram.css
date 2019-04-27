@@ -35,7 +35,6 @@
     width: 75%;
   }
 
-
   .eventDay{
     margin-bottom: 0.2em;
   }
@@ -54,6 +53,28 @@
 
 }
 
-@media screen and (min-width : 800px){
+@media screen and (min-width : 1200px){
 
+  .eventDetails p {
+    font-size: 3vw;
+  }
+
+  .notice {
+      font-size: 3vw;
+  }
+
+  .eventTime {
+    width: 18%;
+  }
+
+  .eventDescription {
+    width: 82%;
+  }
+  .program {
+    padding-bottom: 0.8em;
+  }
+
+  .eventDay{
+    margin-bottom: 0;
+  }
 }

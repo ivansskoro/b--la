@@ -29,6 +29,10 @@
   }
 }
 
-@media screen and (min-width : 800px){
+@media screen and (min-width : 1200px){
 
+
+  .aboutText p{
+      font-size: 3vw;
+    }
 }

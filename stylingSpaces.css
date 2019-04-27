@@ -53,6 +53,23 @@
   }
 }
 
-@media screen and (min-width : 800px){
+@media screen and (min-width : 1200px){
 
+  body {
+    font-size: 4vw;
+  }
+
+  .partnerSpace {
+    font-size: 3vw;
+  }
+.spacesLA p {
+      font-size: 3vw;
+    }
+
+.spacesBerlin p{
+    font-size: 3vw;
+  }
+
+
+  }
 }
