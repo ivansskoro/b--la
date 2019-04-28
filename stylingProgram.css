@@ -9,6 +9,7 @@
     padding-bottom: 0;
   }
 
+
   .programContainer{
     padding-top: 0.8em;
   }
@@ -33,10 +34,19 @@
 
   .eventDescription {
     width: 75%;
+
   }
+
+  .eventDescription a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+  }
+
 
   .eventDay{
     margin-bottom: 0.2em;
+    margin-top: 0.7em;
   }
 
    .eventDetails p {
@@ -66,6 +76,10 @@
   .eventTime {
     width: 18%;
   }
+
+    .programContainer{
+      padding-top: 1.4em;
+    }
 
   .eventDescription {
     width: 82%;

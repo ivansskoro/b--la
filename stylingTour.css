@@ -12,7 +12,7 @@
   .tours {
     display: flex;
     flex-direction: column;
-    height: 88vh;
+    height: 87vh;
   }
 
   .tourDetails {
@@ -29,6 +29,11 @@
 
 }
 
-@media screen and (min-width : 800px){
+@media screen and (min-width : 1200px){
 
+    .tours {
+      display: flex;
+      flex-direction: column;
+      height: 76vh;
+    }
 }
