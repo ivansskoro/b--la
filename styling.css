@@ -109,7 +109,7 @@ src: url("assets/Favorit-Medium-hyphen.otf");
 
 }
 
-@media screen and (min-width : 1200px){
+@media screen and (min-width : 1000px){
 
   body {
     font-size: 4vw;
@@ -129,5 +129,28 @@ src: url("assets/Favorit-Medium-hyphen.otf");
 
   .homeBig{
     font-size: 8.5vw;
+  }
+}
+
+@media screen and (min-width : 1600px){
+
+  body {
+    font-size: 3vw;
+  }
+
+  header {
+  }
+
+  p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .logospace{
+    letter-spacing: -5px;
+  }
+
+  .homeBig{
+    font-size: 6.4vw;
   }
 }
