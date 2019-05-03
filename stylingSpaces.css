@@ -33,7 +33,7 @@
   }
 
   .partnercontent{
-    width: calc(170vw + 190vw + 2em);
+    width: min-content;
     padding-bottom: 1em;
     display: none;
   }
