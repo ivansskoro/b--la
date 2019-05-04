@@ -26,13 +26,48 @@
   .aboutText a {
     text-decoration: none;
     color: black;
+    font-size: 5.3vw;
+  }
+
+  .about-partner{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0.5em;
+  }
+
+  .about-partner a{
+    display: flex;
+    align-items: center;
+  }
+
+  a img{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
   }
 }
 
-@media screen and (min-width : 1200px){
+@media screen and (min-width : 1000px){
 
 
   .aboutText p{
-      font-size: 3vw;
+      font-size: 2.5vw;
+      line-height: 1.1;
+    }
+
+    .aboutText a {
+      font-size: 2.5vw;
+    }
+
+    .aboutText {
+      margin-top: 1.5em;
+    }
+
+
+    .aboutWrapper {
+      margin: 0 auto;
+      padding-left: 10vw;
+      padding-right: 10vw;
+
     }
 }
