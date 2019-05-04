@@ -2,11 +2,20 @@
 /* black #1A1A1A */
 /* purple #9D9BC3 */
 
+@font-face {
+font-family: "Favorit Medium";
+src: url("assets/Favorit-Medium-hyphen.otf");
+}
+
 @media screen and (min-width : 0px){
 
+  html,
   body {
     background-color: #CBCCCB;
-    padding-bottom: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
 
   .tours {
@@ -15,7 +24,7 @@
     height: 87vh;
   }
 
-  .tourDetails {
+  .tours-tourDetails {
     display: flex;
     border-bottom: 2px solid black;
     padding: 10px;
@@ -23,17 +32,77 @@
     align-items: center;
   }
 
-  .tourDetails:last-child {
+  .tours-tourDetails p a {
+	color: #1A1A1A;
+	text-decoration: none;
+  }
+
+  .tours-tourDetails:last-child {
     border-bottom: none;
   }
+
+
+
+ /* Always set the map height explicitly to define the size of the div
+  * element that contains the map. */
+  .tour,
+  #map {
+	height: 100%;
+	height: calc( 100vh - 70px );
+  }
+
+  .tour-footer {
+  	background-color: #CBCCCB;
+  	text-align: center;
+  	padding: 0;
+  	position: absolute;
+  	width: 100%;
+  	bottom: 0;
+  	font-size: 4vw;
+  	height: 70px;
+  	line-height: 70px;
+  }
+  .tour-footer a {
+  	color: #1A1A1A;
+  	text-decoration: none;
+    font-size: 7vw;
+  }
+
+  /* style InfoWindow */
+  .gm-style-iw.gm-style-iw-c {
+  	border-radius: 0;
+  	background: #CBCCCB;
+    font-family: 'Favorit Medium', Arial, sans-serif;
+    font-size: 4vw;
+  	color: #1A1A1A;
+
+    padding: 1em;
+
+  }
+  .gm-style .gm-style-iw-t::after {
+  	background: #CBCCCB;
+  }
+
+  .gm-style-iw.gm-style-iw-c b {
+  	display: block;
+    margin-bottom: 10px;
+  }
+
+
+
 
 }
 
 @media screen and (min-width : 1200px){
 
-    .tours {
-      display: flex;
-      flex-direction: column;
-      height: 76vh;
-    }
+  .tours {
+  	display: flex;
+  	flex-direction: column;
+  	height: 76vh;
+  }
+
+  .tour-footer {
+    font-size: 3vw;
+  }
+
 }

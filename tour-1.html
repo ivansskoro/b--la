@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="b-la connect spaces">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="styling.css">
+
+	<link rel="stylesheet" type="text/css" href="stylingTour.css">
+	<title>Kreuzberg / Neukölln · Tours · B->LA</title>
+</head>
+
+<body>
+
+<section class="tour">
+  <div id="map"></div>
+</section>
+
+<script>
+
+	var tourWayPoints = [
+		{
+			name: 'Horse & Pony',
+			address: 'Altenbraker Str. 18, 12053 Berlin, Germany',
+			web: 'www.horseandponyfinearts.com',
+			lat: '52.47043470000001',
+			lng: '13.432270000000017',
+		},
+		{
+			name: 'StudioBaustelle',
+			address: 'Berthelsdorfer Str. 11, 12043 Berlin, Germany',
+			web: 'www.studio-baustelle.org',
+			lat: '52.4783761',
+			lng: '13.440337',
+		},
+		{
+			name: 'HilbertRaum',
+			address: 'Reuterstraße 31, 12047 Berlin, Germany',
+			web: 'www.hilbertraum.org',
+			lat: '52.48752520000001',
+			lng: '13.429032499999948',
+		},
+		{
+			name: 'nationalmuseum',
+			address: 'Urbanstraße 100, 10967 Berlin, Germany',
+			web: 'www.thenationalmuseum.de',
+			lat: '52.4895974',
+			lng: '13.421968399999969',
+		},
+		{
+			name: 'SomoS Art House',
+			address: 'Kottbusser Damm 95, 10967 Berlin, Germany',
+			web: 'www.somos-arts.org',
+			lat: '52.4939256',
+			lng: '13.42165060000002',
+		},
+		{
+			name: 'Blake & Vargas',
+			address: 'Reichenberger Str. 72, 10999 Berlin, Germany',
+			web: 'www.blakeandvargas.com',
+			lat: '52.4945739',
+			lng: '13.433512500000006',
+		},
+		{
+			name: 'SCOTTY',
+			address: 'Oranienstraße 46, 10969 Berlin, Germany',
+			web: 'www.scottyenterprises.de',
+			lat: '52.5028163',
+			lng: '13.413888400000019',
+		},
+	];
+
+</script>
+<script src="tour.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdMQ50eB9QeRryCDrzFOGCWP-R9oFquzA&callback=initMap"
+async defer></script>
+
+  <nav class="tour-footer">
+    <a href="tours.html" class="tour-backToList">← Tours</a>
+  </nav>
+
+</body>
+</html>

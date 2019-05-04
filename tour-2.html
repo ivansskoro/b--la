@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="b-la connect spaces">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="styling.css">
+
+	<link rel="stylesheet" type="text/css" href="stylingTour.css">
+	<title>Mitte / Prenzlauer Berg · Tours · B->LA</title>
+</head>
+
+<body>
+
+<section class="tour">
+  <div id="map"></div>
+</section>
+
+<script>
+
+	var tourWayPoints = [
+		{
+			name: 'LAGEEGAL',
+			address: 'Greifswalderstr. 35, 10405 Berlin, Germany',
+			web: 'www.lage-egal.net',
+			lat: '52.53353749999999',
+			lng: '13.430294600000025',
+		},
+		{
+			name: 'Pavillon am Milchhof',
+			address: 'Schwedter Str. 232, 10435 Berlin Germany',
+			web: 'www.milchhofpavillon.de',
+			lat: '52.5382024',
+			lng: '13.405547800000022',
+		},
+		{
+			name: 'Axel Obiger',
+			address: 'Brunnenstraße 29, 10119 Berlin, Germany',
+			web: 'www.axelobiger.net',
+			lat: '52.5344571',
+			lng: '13.398290999999972',
+		},
+		{
+			name: 'ACUD MACHT NEU',
+			address: 'Veteranenstr.21, 10199 Berlin, Germany',
+			web: 'www.acudmachtneu.de',
+			lat: '52.5331491',
+			lng: '13.401104499999974',
+		},
+	];
+
+</script>
+<script src="tour.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdMQ50eB9QeRryCDrzFOGCWP-R9oFquzA&callback=initMap"
+async defer></script>
+
+  <nav class="tour-footer">
+    <a href="tours.html" class="tour-backToList">← Tours</a>
+  </nav>
+
+</body>
+</html>
