@@ -89,15 +89,21 @@
 
 @media screen and (min-width : 1000px){
 
-  body {
-    font-size: 4vw;
-  }
+
 
   .partnerSpace {
     font-size: 3vw;
   }
 .spacesLA p {
       font-size: 3vw;
+    }
+
+    .partnerSpaces{
+      border-bottom: solid 3px black;
+    }
+
+    .partnerSpace {
+      border-top: solid 3px black;
     }
 
 .spacesBerlin p{
